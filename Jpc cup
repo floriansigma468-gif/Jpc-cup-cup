@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JPC Cup Jersey – Dual Edition</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background:#050505; color:#f5f5f5; }
+    header { padding:20px; text-align:center; border-bottom:1px solid #333; }
+    .logo { font-size:28px; letter-spacing:3px; font-weight:700; }
+    .tagline { font-size:14px; color:#aaa; }
+    .grid { display:flex; flex-wrap:wrap; gap:30px; padding:40px 8%; justify-content:center; }
+    .card { background:#111; border-radius:14px; padding:20px; max-width:380px; box-shadow:0 0 25px rgba(0,0,0,0.7); }
+    .card img { width:100%; border-radius:10px; margin-bottom:15px; }
+    .title { font-size:20px; margin-bottom:8px; }
+    .desc { font-size:14px; color:#ccc; line-height:1.5; }
+    .price { font-size:18px; margin:12px 0; color:#f5c400; }
+    .btn { display:inline-block; padding:10px 22px; background:#f5c400; color:#000; text-decoration:none; border-radius:999px; font-weight:600; font-size:14px; }
+    .signed { border:1px solid #f5c400; }
+    footer { text-align:center; padding:20px; font-size:12px; color:#777; border-top:1px solid #333; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">JPC CUP JERSEY</div>
+    <div class="tagline">Two cards. Three names. One insane drop.</div>
+  </header>
+
+  <section class="grid">
+    <!-- Jersey 1: Bowie Jersey using your uploaded photo -->
+    <div class="card">
+      <img src="bowie-jersey.jpg" alt="JPC Cup Jersey – Bowie Edition" />
+      <div class="title">
